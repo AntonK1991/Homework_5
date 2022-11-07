@@ -39,7 +39,7 @@ void NumsCount(int[] array)
             count = count + 1;
         }
     }
-    Console.WriteLine("Количество четных элементов в массиве - " + count);
+    Console.WriteLine("Количество четных элементов в массиве: " + count);
 }
 
 Console.Write("Введите количество элементов массива: ");

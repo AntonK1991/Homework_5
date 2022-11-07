@@ -45,7 +45,7 @@ void OddIndexSumm(int[] array)
             summ = summ + array[i];
         }
     }
-    Console.WriteLine("Cумма элементов, стоящих на нечётных позициях - " + summ);
+    Console.WriteLine("Cумма элементов, стоящих на нечётных позициях: " + summ);
 }
 
 OddIndexSumm(PrintMassive(RandomFillMassive(CreateMassive(Input()))));
